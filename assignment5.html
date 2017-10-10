@@ -1,9 +1,13 @@
  <html> 
     <head>
         <title> Assignment 5 </title>
+         <link rel="icon" 
+      type="image/png" 
+      href="oswald.png">
          <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
     </head>
     <body>
+        
   <tr>
     <td width="100%">
 <p> <font color='#004967' face="cooper black">The Smiths Generator </font> </p>
@@ -70,11 +74,11 @@ if ((randominteger >= 58) && (randominteger <= 60)) answer ="I am human and I ne
 
 var newWindow = window.open("","Results","width=300,height=300")
 newWindow.document.write("<html><body bgcolor='#F2B79F' text='##004967' link='##004967' alink='##004967' vlink='##004967'>")
-newWindow.document.write("<P align='center'>Your Question:</P><P></P>")
-newWindow.document.write("<P align='center'>" + document.input1.textfield.value + "</P>")
-newWindow.document.write("<P></P><P></P><P></P><P align='center'>Morrissey Has Answered:</P><P></P>")
+newWindow.document.write("<P align='center'> <font face= futura> Your Question: </font> </P><P></P>")
+newWindow.document.write("<P align='center'> <font face= cooper black>" + document.input1.textfield.value + " </font> </P>")
+newWindow.document.write("<P></P><P></P><P></P><P align='center'> <font face= futura> Morrissey Has Answered: </font> </P><P></P>")
 newWindow.document.write("")
-newWindow.document.write("<P align='center'>" + answer + "</P>")
+newWindow.document.write("<P align='center'> <p> <b> <font face= cooper black> " + answer + " </font> </b></p></P>")
 newWindow.document.write("<P></P><P></P><P align='center'><A HREF='javascript:window.close()'>Close Me</A></P>")
 }
 
@@ -82,10 +86,6 @@ newWindow.document.write("<P></P><P></P><P align='center'><A HREF='javascript:wi
 
 </td>
   </tr>
-<p align="center">This free script provided by<br />
-<a href="http://javascriptkit.com">JavaScript
-Kit</a></p>
-
 
              </body>
         </html>
